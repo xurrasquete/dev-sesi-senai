@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+     h1{text-align: center;}
+     legend{text-align: center;}
+     th{background-color: rgb(61, 61, 136);color: aliceblue;}
+     textarea {width: 100%;}
+     body{background-color: rgb(159, 159, 237);}
+  </style>
+</head>
+<body>
+   
+   <h1>Ficha de cadastro</h1>
+<form>
+   <fieldset>
+    <legend>Dados pessoais</legend>
+        <table border="0">
+           <tr>
+            <td> <label>Nome Aluno</label></td>
+            <td> <input type="text" placeholder="Digite o nome do ao"></td>
+        </tr>
+         <tr>
+             <td><label>Nascimento</label></td>
+             <td><input type="date"></td> <br>
+         </tr>
+         <tr> 
+            <td><label>Idade</label></td>
+            <td><input type="text"></td>
+         </tr>
+         <tr>
+            <td><label>Nome da mãe</label></td>
+            <td><input type="text" placeholder="Digite o nome da mãe"></td>
+         </tr>
+         <tr>
+            <td>Telefone</td>
+            <td><input type="text"></td>
+         </tr>
+         <tr>
+            <td><label>Email</label></td>
+            <td><input type="text" placeholder="Digite o email"></td>
+         </tr>
+         <tr>
+            <td><label>Senha</label></td>
+            <td><input type="password" placeholder="Digite a senha"></td>
+         </tr>
+         <tr>
+            <td><label>Foto</label></td>
+            <td><input type="file"></td>
+         </tr>
+        </table>
+</fieldset>
+<fieldset>
+    <legend>Informação de matrícula</legend>
+ <table border="0">
+    <tr> 
+        <th>Série</th> 
+        <th>Turno</th> <br> 
+<br>    <th>Atividades extracurriculares</th>
+    </tr>
+   <tr>
+        <td><select name="selecione escolaridade" ="select">
+            <option value="selecione escolaridade">selecione escolaridade</option>
+            <option value="ensino fundamental">ensino fundamental</option>
+            <option value="ensino médio">ensino médio</option>
+            <option value="ensino superior">ensino superior</option>
+        </select></td>
+      <td>
+        <input type="radio" name="turno">Tarde
+        <br>
+            <input type="radio" name="turno"> Manhã
+      </td>
+      <td>
+         <input type="checkbox"> Informática <br>
+         <input type="checkbox"> música <br>
+         <input type="checkbox"> Pintura <br>
+         <input type="checkbox"> Judô <br>
+         <input type="checkbox"> Futebol <br>
+      </td>
+   </tr>
+ 
+ </table>
+</fieldset>
+<fieldset>
+           <legend>Observação</legend>
+           <textarea></textarea>
+</fieldset>
+            <input type="reset" value="limpar"reset>
+            <input type="reset" value="Enviar"reset>
+  </form>
+</body>
+</html>
