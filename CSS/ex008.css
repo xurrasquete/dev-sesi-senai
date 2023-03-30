@@ -1,0 +1,49 @@
+.borda-redonda {
+    border: 1px solid black;
+}
+.borda-bottom {
+    border-bottom: 2px solid rgb(255, 0, 0);
+}
+
+.borda-arredondada {
+    Border: 2px solid green;
+    border-radius: 5px;
+}
+.borda-left {
+    border-left: 4px solid blue;
+    background-color: rgb(129, 129, 194);
+}
+.borda-top {
+    border-top: 1px solid rgb(193, 123, 193);
+}
+.borda-mista {
+    border-top: 4px solid yellow;
+    border-bottom: 4px dashed red;
+    border-left: 4px double green;
+    border-right: 4px dotted blue;
+}
+.imagem {
+    background-image: url(../IMG/D_NQ_NP_601172-MLB25941141841_092017-O.jpg);
+    border-radius: 25px;
+    width: 400px; height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.bloco {
+    border-top-left-radius:30px ;
+    width: 250px;
+    height: 150px;
+    border-bottom-right-radius: 30px;
+    background-color: blueviolet;
+}
+.imagem2 {
+    background-image: url(../IMG/D_NQ_NP_601172-MLB25941141841_092017-O.jpg);
+    border-radius: 1000px;
+    width: 200px; height: 200px;
+    background-size: contain;
+}
+.redonda-borda {
+    border: 50px violet;
+    border-radius: 100px;
+    width: 200px; height: 200px;
+}

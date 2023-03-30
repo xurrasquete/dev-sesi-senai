@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(157, 157, 242);
+}
+.borda-principal {
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 600px; height: 600px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 3px 3px 30px black;
+}
+h1 {
+    color: yellow ;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+.parte1 {
+    border-bottom: 3px solid rgb(147, 101, 17);
+    border-left: 6px solid rgb(147, 101, 17);
+    border-radius: 10px;
+    margin: 20px;
+}
+.titulo1 {
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    color: rgb(186, 7, 37);
+}
+.imagem {
+    background-image: url(../IMG/download.png);
+    width: 100px; height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left
+}
+.text1 {
+    text-justify: auto;
+}
+.parte2 {
+    border-bottom: 3px solid rgb(147, 101, 17) ;
+    border-left: 6px solid rgb(147, 101, 17) ;
+    border-radius: 10px;
+    margin: 20px;
+}
+.titulo2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(186, 7, 37);
+}
+.imagem2 {
+    background-image: url(../IMG/download.png);
+    width: 100px; height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.titulo2 {
+    text-align: center;
+}
+.text2 {
+    text-align: center ;
+}
+.parte3 {
+    border-bottom: 3px solid rgb(147, 101, 17) ;
+    border-left: 6px solid rgb(147, 101, 17) ;
+    border-radius: 10px;
+    margin: 20px;
+}
+.titulo3 {
+    text-align: right;
+    color: rgb(186, 7, 37);
+}
+.titulo3 {
+    background-image: url(../IMG/download.png);
+    width: 100px; height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: right;
+    margin: 10px 0px 0px 0px;
+}

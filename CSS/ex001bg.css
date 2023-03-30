@@ -1,0 +1,32 @@
+.fundo-imagem {
+    height: 40px;
+    width: 80px;
+    background-image: url(../IMG/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+h1 {
+    font-family: Helvetica;
+    background-color: rgb(137, 137, 227);
+}
+.Fundo-imagem2 {
+    width: 800px;
+    height: 500px;
+    background-image: url(../IMG/matriz-musicdot-antiga.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2 {
+    font-family: Helvetica;
+    border-bottom: 2px solid black ;
+}
+hr {
+    background-color: black;
+}
+.fundo-imagem3 {
+    background-image: url(../IMG/familia-tupfeln.jpg);
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    float: right;
+}

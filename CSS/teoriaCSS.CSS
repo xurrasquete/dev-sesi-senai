@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(85, 83, 209);
+}
+.opacidade {
+    background-color: rgb(24, 163, 9);
+    opacity: 0.3;
+}
+.opacidade-rgba {
+    background-color: rgb(24, 163, 9);
+}
+.fundo-imagem {
+    height: 500px;
+    background-image: url(../IMG/WIN_20230316_07_59_53_Pro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fundo-imagem2 {
+    height: 500px;
+   /*fundo do elemento com imagem*/
+    background-image: url(../IMG/WIN_20230316_07_59_53_Pro.jpg);
+   /*Repetição da imagem de fundo quando é menor que o elemento */
+    background-repeat: no-repeat;
+    /*Esta propriedade "estica" a iamgem para todo espaço*/
+    background-size: cover;
+}
+.fundo-tela-dinamico {
+    height: 1000px;
+    background: url(http://source.unsplash.com/1920x2400?hdr,sunset,ocean);
+}
+.div1 {
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+.div2 {
+    border: 1px solid black;
+    background-color: blueviolet;
+    text-align: right;
+}
+.margin {
+    color: aliceblue ;
+    background-color: blue;
+    margin: 10px;
+}
+.div-centralizada {
+    background-color: blueviolet;
+    width: 150px; /* Definindo a largura do DIV */
+    margin: 0 auto; /* Centralizando um elemnto de bloco */
+}
+.div-pading {
+    background-color: green;
+    padding: 20px;
+}
+.div-mista {
+    margin: 50px;
+    border: 1px solid black;
+    padding: 30px;
+    
+}
+.botao {
+    background-color: rgb(206, 116, 229);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 2px solid black;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+    

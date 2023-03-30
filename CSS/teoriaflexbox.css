@@ -1,0 +1,77 @@
+/* FLEX 1 - ROW EM LINHA */
+.flex-1 {
+    display: flex;
+   /* alterando o display da div para o tipo flex 
+   para ficar mais fácil estilizar as posições dos 
+   elementos filhos - por padraõ o alinhamento
+    é em linha ROW */
+    background-color: gray;
+}
+
+/* FLEX 2 - COLUNM EM COLUNA */
+.flex-coluna {
+    background-color: gray;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    /* O flex Direction altera a disposição dos elementos 
+    paravo tipo coluna colocando um embaixo do outro */
+    flex-direction: column;
+}
+
+/* FLEX 3 - WRAP queba de linha */
+.wrap {
+    background-color: gray;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    /* O flex wrap "quebra" os elemnetos em uma nova 
+    linha quando não acbem */
+    flex-wrap: wrap;
+}
+img {
+    width: 200px;
+    margin: 10px;
+}
+/* FLEX 4 - Centralizando */
+.centralizar-x {
+    background-color: gray;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    /* Centralizar horizontalmente */
+    justify-content: center;
+}
+.space-around {
+    background-color: gray;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    /* Alinahndo o ite */
+    justify-content: space-around;
+}
+.space-between {
+    background-color: gray;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    /* Alinahndo o ite */
+    justify-content: space-between;
+}
+.flex-end {
+    background-color: gray;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    /* Alinahndo o ite */
+    justify-content: flex-end;
+}
+.centralizar-y {
+    background-color: gray;
+    margin-top: 30px;
+    display: flex;
+    height: 500px;
+    /* Alinahndo os elemnetos ao centro verticalmente*/
+    align-items: center;
+    justify-content: center;
+}
